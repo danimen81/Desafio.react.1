@@ -3,22 +3,35 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: beige;
+ 
+ 
 }
 
 .galeria {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
   gap:10px;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-top:10px;
 
 }
+
 img{
 padding:10px;
 
 }
-
+.badge{
+  width:80%;
+  margin: 20px;
+  padding-bottom:15px;
+}
+h5{
+  width:98%;
+}
 /*
 .logo {
   height: 6em;
